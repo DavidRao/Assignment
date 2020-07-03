@@ -12,10 +12,10 @@
    - `git rm --cached letter.txt`
    - `git status`观察
 2. - 将`letter.txt`提交到本地版本库
-3. - 新建`number.txt`、`fruit.txt`、`animal.txt`，如何用最少的指令，一次性提交到版本库？
+3. - 新建`number.txt`、`fruit.txt`、`animal.txt`，如何用两句指令提交到版本库？
    - 答：
-4. - `fruit.txt`、`animal.txt`中分别添加一种水果、一种动物，如何用最少的指令全部添加到暂存区？
-   - 在上面的基础上，如何用最少的指令提交到版本库？
+4. - `fruit.txt`、`animal.txt`中分别添加一种水果、一种动物，如何用一句指令将全部添加到暂存区？
+   - 在上面的基础上，如何用一句指令提交到版本库？
    - 答：
 5. - `fruit.txt`、`animal.txt`中再分别添加一种水果、一种动物，如何用最少的指令全部提交到版本库？
    - 答：
