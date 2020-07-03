@@ -67,10 +67,9 @@
 6. - 右键`tiger.txt`，重命名为`animal.txt`
    - `git status` 观察
    - 将重命名记录提交到版本库
+7. 使用前面介绍的任一种方法删除`animal.txt`
 
 # 5. checkout的另一用法
-
-1. 使用前面介绍的任一种方法删除`animal.txt`
 
 2. 修改`letter.txt`中的内容为（你的名字是指填写你的真实名字，到后面“解决冲突”部分有用）
 
