@@ -30,6 +30,10 @@
 
 这里关于reset的操作只要求掌握`--hard`的用法
 
+注意区分checkout和reset的用法
+
+常用git status去观察状态
+
 1. - `letter.txt`回退到插入字母a时候的版本，`number.txt`回退到插入1时候的版本（用checkout）
    - 使用`git log`简略显示的三种方法，观察并说说区别
    - 答：
