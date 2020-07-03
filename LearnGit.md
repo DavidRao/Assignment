@@ -19,9 +19,9 @@
    - 答：
 5. - `fruit.txt`、`animal.txt`中再分别添加一种水果、一种动物，如何用一条指令全部提交到版本库？
    - 答：
-6. - 说说`git commit --amend`的作用，可以用上面的文件做例子说明
+6. - 说说`git commit --amend`的作用，参考我写的`GitTutorial`自己做做实验，可以用上面的文件做例子说明
    - 答：
-7. - 综合上面的多种方法，向`letter.txt`中逐行添加a, b, c, d, e, f, g，一行一个，不要一次性加完，重在练习
+7. - 综合上面的多种方法，向`letter.txt`中逐行添加a, b, c, d, e, f, g，一行一个，不要一次性加完，重在练习，而且产生大量的日志方便方便后续的其它操作
    - 同理向`number.txt`中逐行添加1, 2, 3, 4, 5, 6
 8. - 综合使用`git log`的四种显示方式，观察
    - 截图其中一种：
@@ -71,19 +71,19 @@
 2. 修改`letter.txt`中的内容为（你的名字是指填写你的真实名字，到后面“解决冲突”部分有用）
 
    ```
-   e edit by 你的名字
-   d edit by 你的名字
-   c edit by 你的名字
-   b edit by 你的名字
    a edit by 你的名字
+   b edit by 你的名字
+   c edit by 你的名字
+   d edit by 你的名字
+   e edit by 你的名字
    ```
 
 3. 修改`number.txt`中的内容为（你的名字是指填写你的真实名字，到后面“解决冲突”部分有用）
 
    ```
-   3 edit by 你的名字
-   2 edit by 你的名字
    1 edit by 你的名字
+   2 edit by 你的名字
+   3 edit by 你的名字
    ```
 
 4. 提交到版本库
@@ -109,16 +109,16 @@
    - 观察此时的命令行提示
 2. - 解决本地冲突，文件最终的样子修改为
    - ```
-     e edit by 你的名字
-     d edit by 你的名字
-     c edit by 你的名字
-     b edit by 你的名字
      a edit by 你的名字
+     b edit by 你的名字
+     c edit by 你的名字
+     d edit by 你的名字
+     e edit by 你的名字
      ```
    - ```
-     3 edit by 你的名字
-     2 edit by 你的名字
      1 edit by 你的名字
+     2 edit by 你的名字
+     3 edit by 你的名字
      ```
 
 3. 提交到版本库
