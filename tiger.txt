@@ -1,5 +1,0 @@
-panda
-cat
-dog
-bear
-
