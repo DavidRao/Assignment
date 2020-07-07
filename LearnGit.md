@@ -13,7 +13,7 @@
    - `git status`观察
 2. - 将`letter.txt`提交到本地版本库
 3. - 新建`number.txt`、`fruit.txt`、`animal.txt`，如何用最少的指令，一次性提交到版本库？
-   - 答：
+   - 答：可用git add fruit.txt animal.txt ...一次添加多个，然后用git commit -m "..." fruit.txt animal.txt number.txt 同时提交多个
 4. - `fruit.txt`、`animal.txt`中分别添加一种水果、一种动物，如何用最少的指令全部添加到暂存区？
    - 在上面的基础上，如何用最少的指令提交到版本库？
    - 答：
