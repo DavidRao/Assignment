@@ -18,13 +18,13 @@
    - 在上面的基础上，如何用最少的指令提交到版本库？
    - 答：可用git add fruit.txt animal.txt ...一次添加多个，然后用git commit -m "..." fruit.txt animal.txt number.txt 同时提交多个
 5. - `fruit.txt`、`animal.txt`中再分别添加一种水果、一种动物，如何用最少的指令全部提交到版本库？
-   - 答：
+   - 答：和上面一样吧
 6. - 说说`git commit --amend`的作用，可以用上面的文件做例子说明
-   - 答：
+   - 答：能修改上一次提交的注释和内容
 7. - 综合上面的多种方法，向`letter.txt`中逐行添加a, b, c, d, e, f, g，一行一个，不要一次性加完，重在练习
    - 同理向`number.txt`中逐行添加1, 2, 3, 4, 5, 6
 8. - 综合使用`git log`的四种显示方式，观察
-   - 截图其中一种：
+   - 截图其中一种：![image-20200707114742108](C:\Users\樊zy\AppData\Roaming\Typora\typora-user-images\image-20200707114742108.png)
 
 # 3. 版本前进、回退
 
@@ -32,11 +32,11 @@
 
 1. - `letter.txt`回退到插入字母a时候的版本，`number.txt`回退到插入1时候的版本（使用checkout）
    - 使用`git log`简略显示的三种方法，观察并说说区别
-   - 答：
+   - 答：git log 最详细，但最占空间;git --pretty=oneline 比较节省空间，能看到索引值;git log --oneline 和上一个差不多，但现实缩写的索引值;
 2. - 如何前进到a, b, c, d, e, f, g齐全，1, 2, 3, 4, 5, 6齐全的版本（使用reset）
-   - 完成后用你喜欢的log方式截图：
+   - 完成后用你喜欢的log方式截图：![image-20200707120029167](C:\Users\樊zy\AppData\Roaming\Typora\typora-user-images\image-20200707120029167.png)
 3. - `letter.txt`回退到插入字母 e 时候的版本，`number.txt`回退到插入3时候的版本（使用checkout）
-   - 完成后用你喜欢的log方式截图：
+   - 完成后用你喜欢的log方式截图：![image-20200707115730710](C:\Users\樊zy\AppData\Roaming\Typora\typora-user-images\image-20200707115730710.png)
 
 # 4. 理解删除
 
